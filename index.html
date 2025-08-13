@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>SUPER BOSS</h1>
+        <p>Aspiring Developer | Python Enthusiast | Tech Explorer</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! I'm SUPER BOSS, passionate about building tech solutions and learning new skills.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li>Flask REST API</li>
+            <li>Data Analysis with Pandas</li>
+            <li>Portfolio Website</li>
+        </ul>
+    </section>
+
+    <footer>
+        <a href="{{ url_for('contact') }}">Contact Me</a>
+    </footer>
+</body>
+</html>
